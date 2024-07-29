@@ -77,8 +77,7 @@ WSGI_APPLICATION = 'scope.wsgi.application'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
  
- DATABASES = {}
- """{ 
+ DATABASES = { 
  'default' : { 
  'ENGINE': 'django.db.backends.postgresql', 
  'NAME':'railway', 
@@ -87,7 +86,7 @@ WSGI_APPLICATION = 'scope.wsgi.application'
 'HOST':'containers-us-west-92.railway.app', 
  'PORT':'5526', 
 } 
- } """
+ } 
 
 
 # Password validation
