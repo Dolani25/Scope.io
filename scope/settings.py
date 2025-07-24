@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-r1^f^s0nz1n#z9_60x4zigfcw)bmi&-cfjh7etl9e2olnk)wuu'
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app', 'now.sh', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['.vercel.app', 'scopeio-production.up.railway.app' , '.railway.app' , 'now.sh', '127.0.0.1', 'localhost']
 
 
 # Application definition
